@@ -9,47 +9,7 @@ const { Schema, model, Types } = require('mongoose');
     
   }
 
-
-const reactionSchema = new Schema({
-    
-    
-    reactionId: {
-        
-        
-     
-        
-       
-    },
-    
-    
-    
-        
-   
-        
-        
-    
-    
-    
-    username: {
-        
-        
-        type: String,
-        
-        
-     
-      
-        
-    },
-    
-    
-    createdAt: {
-        
-       
-    
-    
-},
-                                  
-                                  
+                        
 {
     
     
