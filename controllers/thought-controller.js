@@ -1,6 +1,6 @@
 const {} = require('');
 
-const thoughtController = {
+const thouer = {
 
     
     getAlghts(req, res) {
