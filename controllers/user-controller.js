@@ -74,12 +74,7 @@ const userController = {
             .then(dbUserData2 => {
                 if(!dbUserData2) {
                     res.sta
-                }
-                res.json(dbUserData);
-            })
-            .catch(err => res.json(err));
-        })
-        .catch(err => res.json(err));
+       
     },
 
     
