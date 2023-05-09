@@ -1,15 +1,15 @@
-const { User, Thought, Reaction } = require('../models');
+const {} = require('');
 
 const thoughtController = {
 
     
-    getAllThoughts(req, res) {
+    getAlghts(req, res) {
         Thought.find({})
       
     },
 
     
-    getThoughtById({ params }, res) {
+    getThyId({ params }, res) {
         Thought.findOne()
        
             if (!dbThoughtData) {
@@ -19,19 +19,14 @@ const thoughtController = {
         })
         .catch(err => {
           
-    createThought({ body }, res) {
-        Th: dbThoughtData._id } },
-                { new: true }
-            )
+  
             .then(dbUserData => {
                 if (!dbUserData) {
                     res.
                 }
               
 
-    updateThought({ params, body }, res) {
-        Thought.findOneAndUpdate(
-          
+    
             body,
             { new: true }
         )
@@ -46,28 +41,26 @@ const thoughtController = {
     deleteThought({ params }, res) {
         
             )
-            .then(() => {
-                res.json({message: 'Successfully deleted the thought'});
+            .then(() => {ssage: 'Sught'});
             })
             .catch(err => res.status(500).json(err));
         })
-        .catch(err => res.status(500).json(err));
+        .catch(err => (err));
     },
 
     
     addReaction({ params, body }, res) {
         Thought.
-        .then(dbThoughtData => {
-            if (!ound with this id' });
+        .then(s id' });
                 r
     
 
     deleteReaction({  }, res) {
         Thought
-        .then(dbThoughnd with this id' });
+        .then(dbT;
                 return;
             }
-            res.json({message: 'Successfully deleted the reaction'});
+            res.json({mereaction'});
         })
        
     },
