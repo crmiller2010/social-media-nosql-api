@@ -58,21 +58,18 @@ const thoughtController = {
     addReaction({ params, body }, res) {
         Thought.
         .then(dbThoughtData => {
-            if (!dbThoughtData) {
-                res.status(404).json({ message: 'No thought found with this id' });
+            if (!ound with this id' });
                 r
     
 
-    deleteReaction({ params, body }, res) {
+    deleteReaction({  }, res) {
         Thought
-        .then(dbThoughtData => {
-            if (!dbThoughtData) {
-                res.status(404).json({ message: 'No thought found with this id' });
+        .then(dbThoughnd with this id' });
                 return;
             }
             res.json({message: 'Successfully deleted the reaction'});
         })
-        .catch(err => res.status(500).json(err));
+       
     },
 }
 
